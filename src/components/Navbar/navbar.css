@@ -1,83 +1,61 @@
-.nav-container {
+section {
+    background-color: pink;
+    padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #DBDBDB;
+    align-items: center;
 }
 
-.nav-logo {
-    color: #5D5D5F;
-}
-
-.nav-links-list {
-    list-style: none;
-}
-
-.nav-links-list a {
+.logo a {
     text-decoration: none;
-    color: #7D859A;
+    color: black;
 }
 
-.nav-links-list a:hover {
-    color: #5D5D5F;
-}
-
-.fas, .fa-bars {
-    color: #5D5D5F;
-}
-
-.nav-links {
+nav.navigation {
     display: none;
 }
 
-.nav-contact-container {
+nav.navigation.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+nav.navigation.active a {
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+img.close {
     display: none;
 }
 
-@media screen and (min-width: 600px) {
-    .nav-container {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr
-    }
+img.show {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
 
-    .nav-logo {
-        grid-column: 1/2;
-        margin: auto;
-    }
-
-    .nav-links-list {
-        grid-column: 2/3;
+@media screen and (min-width: 991px) {
+    nav.navigation {
         display: flex;
-        justify-content: space-evenly;
-        padding: 0 1rem;
     }
-
-    .nav-toggle {
+    nav.navigation a {
+        font-size: 16px;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    div.toggleBox {
         display: none;
-    }
-
-    .nav-links {
-        display: block;
-    }
-
-    .nav-contact-container {
-        grid-column: 3/4;
-        display: block;
-        margin: auto;
-        color: #7D859A;
-    }
-
-    .nav-contact-list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .phone-icon {
-        padding: 0.30rem 0.30rem 0 0;
-        height: 1.5rem;
-        width: 1.5rem;
     }
 }

@@ -1,34 +1,31 @@
 import './navbar.css';
-import Phone from '../../img/phone-icon.png';
+import Menu from '../../img/menu.png';
+import Close from '../../img/close.png';
 
 const Navbar = () => {
+	const showMenu = () => {
+		document.querySelector('.navigation').classList.toggle('active');
+		document.querySelector('.menu').classList.toggle('hide');
+		document.querySelector('.close').classList.toggle('show');
+	};
 	return (
-		<nav className='nav-container'>
-			<div className='nav-logo'>Tony's Coffee</div>
-			<ul className='nav-links-list'>
-				<li className='nav-toggle'>
-					<i class='fas fa-bars'></i>
-				</li>
-				<li className='nav-links'>
-					<a href='/'>Home</a>
-				</li>
-				<li className='nav-links'>
-					<a href='/menu'>Menu</a>
-				</li>
-				<li className='nav-links'>
-					<a href='/reviews'>Reviews</a>
-				</li>
-				<li className='nav-links'>
-					<a href='contact'>Contact</a>
-				</li>
-			</ul>
-			<div className='nav-contact-container'>
-				<div className='nav-contact-list'>
-					<img className='phone-icon' src={Phone} alt='phone' />
-					<div className='phone-number'>(763) 548-4009</div>
-				</div>
+		<section>
+			<div className='logo'>
+				<a href='/'>Tony's Coffee</a>
 			</div>
-		</nav>
+			<nav className='navigation'>
+				<a href='/'>Home</a>
+				<a href='/menu'>Menu</a>
+				<a href='/reviews'>Reviews</a>
+				<a href='contact'>Contact</a>
+			</nav>
+			<div className='toggleBox'>
+				<a onClick={showMenu} href='#'>
+					<img className='menu' src={Menu} alt='menu'/>
+					<img className='close' src={Close} alt='close'/>
+				</a>
+			</div>
+		</section>
 	);
 };
 
