@@ -1,0 +1,83 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #DBDBDB;
+}
+
+.nav-logo {
+    color: #5D5D5F;
+}
+
+.nav-links-list {
+    list-style: none;
+}
+
+.nav-links-list a {
+    text-decoration: none;
+    color: #7D859A;
+}
+
+.nav-links-list a:hover {
+    color: #5D5D5F;
+}
+
+.fas, .fa-bars {
+    color: #5D5D5F;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-contact-container {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .nav-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr
+    }
+
+    .nav-logo {
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+    .nav-links-list {
+        grid-column: 2/3;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 1rem;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+    .nav-contact-container {
+        grid-column: 3/4;
+        display: block;
+        margin: auto;
+        color: #7D859A;
+    }
+
+    .nav-contact-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .phone-icon {
+        padding: 0.30rem 0.30rem 0 0;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
