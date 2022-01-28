@@ -1,5 +1,5 @@
 section {
-    background-color: pink;
+    background-color: #6EA4BF;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -8,11 +8,16 @@ section {
 
 .logo a {
     text-decoration: none;
-    color: black;
+    color: #ECFEE8;
 }
 
 nav.navigation {
     display: none;
+}
+
+nav.navigation a:hover, .logo a:hover {
+    color: #41337A;
+    transition: 0.25s;
 }
 
 nav.navigation.active {
@@ -25,12 +30,12 @@ nav.navigation.active {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-color: #6EA4BF;
 }
 
 nav.navigation.active a {
     padding: 20px;
-    color: black;
+    color: #ECFEE8;
     font-weight: 500;
     text-decoration: none;
 }
@@ -46,13 +51,19 @@ img.show {
 }
 
 @media screen and (min-width: 991px) {
+    .logo a {
+        font-size: 1.05rem;
+        margin-left: 55px;
+    }
     nav.navigation {
+        width: 50%;
         display: flex;
+        justify-content: space-evenly;
     }
     nav.navigation a {
-        font-size: 16px;
+        font-size: 1.05rem;
         padding: 10px;
-        color: black;
+        color: #ECFEE8;
         text-decoration: none;
     }
     div.toggleBox {
