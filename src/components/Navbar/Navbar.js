@@ -3,6 +3,7 @@ import Menu from '../../img/menu.png';
 import Close from '../../img/close.png';
 
 const Navbar = () => {
+	// Mobile nav open and close animation
 	const showMenu = () => {
 		document.querySelector('.navigation').classList.toggle('active');
 		document.querySelector('.menu').classList.toggle('hide');
@@ -21,8 +22,8 @@ const Navbar = () => {
 			</nav>
 			<div className='toggleBox'>
 				<a onClick={showMenu} href='#'>
-					<img className='menu' src={Menu} alt='menu'/>
-					<img className='close' src={Close} alt='close'/>
+					<img className='menu' src={Menu} alt='menu' />
+					<img className='close' src={Close} alt='close' />
 				</a>
 			</div>
 		</section>
