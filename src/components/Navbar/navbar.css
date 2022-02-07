@@ -17,7 +17,7 @@ nav.navigation {
 
 nav.navigation a:hover, .logo a:hover {
     color: #41337A;
-    transition: 0.25s;
+    transition: 0.20s;
 }
 
 nav.navigation.active {
