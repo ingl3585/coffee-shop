@@ -1,9 +1,79 @@
-.top-img {
-    height: 25%;
-    width: 25%;
-}
 
-.bottom-img {
-    height: 25%;
-    width: 25%;
+
+
+
+
+
+
+
+
+/* Tablet/Desktop Sizing */
+@media screen and (min-width: 1024px) {
+    .top-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 90vh;
+    }
+
+    .top-left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .top-right {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-img {
+        height: 650px;
+        width: 412.5px;
+        border: 5px solid #ECFEE8;
+    }
+
+    .bottom-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 90vh;
+    }
+
+    .bottom-left {
+        grid-column: 1/2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-right {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .coffee-sel-section {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .bottom-img {
+        height: 650px;
+        width: 412.5px;
+        border: 5px solid #ECFEE8;
+    }
 }
