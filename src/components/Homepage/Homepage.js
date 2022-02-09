@@ -10,20 +10,45 @@ const Homepage = () => {
 					<img className='top-img' src={topImg} alt='coffee-img' />
 				</div>
 				<div className='top-left'>
-					<h4>Tony's Coffee</h4>
-					<h1>Enjoy your</h1>
-					<h1>morning coffee.</h1>
-					<p>Boost your productivity and build your mood</p>
-					<p>with a glass of coffee in the morning.</p>
-					<div>
-						<button>Get yours now</button>
-						<a href='#'>Reservation</a>
+					<div className='title'>Tony's Coffee</div>
+					<div className='open-statement-one'>Enjoy your</div>
+					<div className='open-statement-two'>morning coffee.</div>
+					<div className='mid-desc-one'>
+						Boost your productivity and build your mood
 					</div>
-					<h4>Enjoy your coffee in our comfortable place.</h4>
+					<div className='mid-desc-two'>
+						with a glass of coffee in the morning.
+					</div>
+					<div className='mid-link-sec'>
+						<button className='mid-btn'>Get yours now</button>
+						<a className='mid-link' href='#'>
+							Reservation
+						</a>
+					</div>
 					<div>
-						<div>50+ Private Room</div>
-						<div>15+ Event Space</div>
-						<div>15+ Creative Studio</div>
+						<div className='destination-section'>
+							Enjoy your coffee in our comfortable place.
+						</div>
+						<div className='space-list'>
+							<div>
+								<div>
+									50<span className='golden-plus'>+</span>
+								</div>
+								<div>Private Room</div>
+							</div>
+							<div>
+								<div>
+									25<span className='golden-plus'>+</span>
+								</div>
+								<div>Event Space</div>
+							</div>
+							<div>
+								<div>
+									15<span className='golden-plus'>+</span>
+								</div>
+								<div>Creative Studios</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -38,14 +63,18 @@ const Homepage = () => {
 				<div className='bottom-right'>
 					<div>Our coffee</div>
 					<div>Choose your favorite coffee</div>
-					<p>More than 100+ different types of coffee are ready</p>
-					<p>to serve by our professionals.</p>
+					<div>More than 100+ different types of coffee are ready</div>
+					<div>to serve by our professionals.</div>
 					<div className='coffee-sel-section'>
 						<div>Cappucino</div>
+						<div>•</div>
 						<div>Late</div>
+						<div>•</div>
 						<div>Arabica</div>
 					</div>
-					<a href='#'>More menu</a>
+					<a className='bottom-link' href='#'>
+						More menu
+					</a>
 				</div>
 			</div>
 		</div>
