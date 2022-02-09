@@ -4,7 +4,7 @@ import bottomImg from '../../img/pour.jpg';
 
 const Homepage = () => {
 	return (
-		<div>
+		<div className='container'>
 			<div className='top-section'>
 				<div className='top-right'>
 					<img className='top-img' src={topImg} alt='coffee-img' />

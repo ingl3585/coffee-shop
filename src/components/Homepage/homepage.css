@@ -1,3 +1,17 @@
+.container {
+    background: linear-gradient(
+        to bottom,
+        #303438 0%, 
+        #303438 50%, 
+        #EFEFEF 50%, 
+        #EFEFEF 100%
+    ) ;
+}
+
+.top-section {
+    color: #EFEFEF;
+}
+
 .top-img {
     display: none;
 }
@@ -10,7 +24,7 @@
 .mid-btn {
     border: none;
     background-color: #6EA4BF;
-    color: #ECFEE8;
+    color: #EFEFEF;
     padding: 10px 26px;
     font-size: 16px;
     cursor: pointer;
@@ -74,7 +88,7 @@
         display: block;
         height: 650px;
         width: 412.5px;
-        border: 5px solid #ECFEE8;
+        border: 5px solid #EFEFEF;
     }
 
     .bottom-section {
@@ -112,6 +126,6 @@
         display: block;
         height: 650px;
         width: 412.5px;
-        border: 5px solid #ECFEE8;
+        border: 5px solid #6EA4BF;
     }
 }
