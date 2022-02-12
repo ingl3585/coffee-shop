@@ -59,11 +59,12 @@ img.show {
     nav.navigation {
         width: 50%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+        margin-right: 7.5px;
     }
     nav.navigation a {
         font-size: 1.05rem;
-        padding: 10px;
+        padding: 0 47.5px;
         color: #303438;
         text-decoration: none;
     }

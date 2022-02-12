@@ -10,7 +10,7 @@ const Homepage = () => {
 					<img className='top-img' src={topImg} alt='coffee-img' />
 				</div>
 				<div className='top-left'>
-					<div className='title'>Tony's Coffee</div>
+					<div className='title golden-text'>Tony's Coffee</div>
 					<div className='open-statement-one'>Enjoy your</div>
 					<div className='open-statement-two'>morning coffee.</div>
 					<div className='mid-desc-one'>
@@ -31,20 +31,20 @@ const Homepage = () => {
 						</div>
 						<div className='space-list'>
 							<div>
-								<div>
-									50<span className='golden-plus'>+</span>
+								<div className='numbers'>
+									50<span className='golden-text'>+</span>
 								</div>
 								<div>Private Room</div>
 							</div>
 							<div>
-								<div>
-									25<span className='golden-plus'>+</span>
+								<div className='numbers'>
+									25<span className='golden-text'>+</span>
 								</div>
 								<div>Event Space</div>
 							</div>
 							<div>
-								<div>
-									15<span className='golden-plus'>+</span>
+								<div className='numbers'>
+									15<span className='golden-text'>+</span>
 								</div>
 								<div>Creative Studios</div>
 							</div>
@@ -61,12 +61,12 @@ const Homepage = () => {
 					/>
 				</div>
 				<div className='bottom-right'>
-					<div>Our coffee</div>
+					<div className='golden-text'>Our coffee</div>
 					<div>Choose your favorite coffee</div>
 					<div>More than 100+ different types of coffee are ready</div>
 					<div>to serve by our professionals.</div>
 					<div className='coffee-sel-section'>
-						<div>Cappucino</div>
+						<div className='golden-text'>Cappucino</div>
 						<div>•</div>
 						<div>Late</div>
 						<div>•</div>

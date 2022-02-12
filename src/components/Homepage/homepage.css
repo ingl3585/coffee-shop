@@ -36,7 +36,7 @@
     color: #6EA4BF;
 }
 
-.golden-plus {
+.golden-text {
     color: gold;
 }
 
@@ -82,6 +82,54 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .title, .mid-desc-one, .mid-desc-two, .mid-link, .destination-section, .space-list {
+        font-size: 16px;
+    }
+
+    .mid-btn {
+        font-size: 16px;
+    }
+
+    .mid-btn:hover {
+        transition: 0.20s;
+        background-color: gold;
+        color: #303438;
+    }
+
+    .mid-link:hover {
+        transition: 0.20s;
+        color: gold;
+    }
+
+    .open-statement-one, .open-statement-two {
+        font-size: 65px;
+        font-weight: 500;
+    }
+
+    .mid-desc-one {
+        padding-top: 10px;
+    }
+
+    .mid-desc-two {
+        padding-bottom: 10px;
+    }
+
+    .mid-link-sec {
+        padding: 10px 0;
+    }
+
+    .space-list {
+        padding-top: 10px 0;
+    }
+
+    .space-list div {
+        padding: 10px 0;
+    }
+
+    .numbers {
+        font-size: 32px;
     }
 
     .top-img {
