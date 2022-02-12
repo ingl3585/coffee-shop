@@ -16,6 +16,10 @@
     display: none;
 }
 
+.title {
+    font-style: italic;
+}
+
 .mid-link-sec {
     display: flex;
     gap: 10px;
@@ -85,11 +89,11 @@
     }
 
     .title, .mid-desc-one, .mid-desc-two, .mid-link, .destination-section, .space-list {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .mid-btn {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .mid-btn:hover {
@@ -163,17 +167,31 @@
         gap: 10px;
     }
 
+    .mid-statement {
+        font-size: 45px;
+    }
+
     .coffee-sel-section {
         width: 100%;
         display: flex;
         justify-content: flex-start;
         gap: 15px;
+        font-size: 30px;
+    }
+
+    .bottom-link {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
+    .bottom-link:hover {
+        color: #BA2C00;
     }
 
     .bottom-img {
         display: block;
         height: 650px;
         width: 412.5px;
-        border: 5px solid #6EA4BF;
+        border: 5px solid black;
     }
 }

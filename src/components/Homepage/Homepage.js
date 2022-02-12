@@ -61,10 +61,15 @@ const Homepage = () => {
 					/>
 				</div>
 				<div className='bottom-right'>
-					<div className='golden-text'>Our coffee</div>
-					<div>Choose your favorite coffee</div>
-					<div>More than 100+ different types of coffee are ready</div>
-					<div>to serve by our professionals.</div>
+					<div className='title golden-text'>Our coffee</div>
+					<div className='mid-statement'>
+						Choose Your
+						<br /> Favorite Coffee
+					</div>
+					<div className='mid-desc-one'>
+						More than 100+ different types of coffee are ready
+					</div>
+					<div className='mid-desc-two'>to serve by our professionals.</div>
 					<div className='coffee-sel-section'>
 						<div className='golden-text'>Cappucino</div>
 						<div>•</div>
