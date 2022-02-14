@@ -78,6 +78,82 @@ const Homepage = () => {
 					</a>
 				</div>
 			</div>
+			<div>
+				<div className='bottom-section'>
+					<div className='image-collage'>Image 1 Image 2 Image 3 Image 4</div>
+					<div>
+						<div className='bottom-statement'>
+							They trust Tony's Coffee as their work place
+						</div>
+						<div className='logo-section'>
+							<div>Logo 1</div>
+							<div>Logo 2</div>
+							<div>Logo 3</div>
+							<div>Logo 4</div>
+						</div>
+					</div>
+					<div>
+						<div>
+							<div>Our Review</div>
+							<div>Let Our Customer Talk About Us</div>
+							<div>
+								We are always proving the best to make our customer pleasant
+								with our services.
+							</div>
+							<div>Before</div>
+							<div>Next</div>
+						</div>
+						<div>
+							<div>
+								"I really love the Cappucinas. The coffee was very smooth. I
+								really love the Cappucinas. The coffee was very smooth."
+							</div>
+							<div>Michael Jack</div>
+							<div>- Coffee Lover</div>
+						</div>
+						<div>
+							<div>Take Your Coffee Now</div>
+							<div>
+								Don't let your coffee cold. Let's go to Tony's Coffee and get
+								your coffee and boost your day now.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className='footer'>
+					<div>
+						<div>Logo</div>
+						<div>
+							Tony's Coffee is a cafe that serve many variants of coffee and
+							other dishes in a very comfortable place.
+						</div>
+						<div>Location Img</div>
+						<div>Made Up Address</div>
+					</div>
+					<div>
+						<div>
+							<div>Facility</div>
+							<ul>
+								<li>Private Room</li>
+								<li>Meeting Room</li>
+								<li>Event Space</li>
+								<li>Creative Studio</li>
+								<li>Custom Room</li>
+							</ul>
+						</div>
+						<div>
+							<div>Products</div>
+							<ul>
+								<li>Coffee</li>
+								<li>Beverages</li>
+								<li>Dishes</li>
+							</ul>
+						</div>
+					</div>
+					<hr />
+					<div>Copyright 2022 Tony's Coffee. All right reserved.</div>
+				</div>
+			</div>
 		</div>
 	);
 };
