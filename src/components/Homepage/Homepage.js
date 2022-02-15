@@ -66,11 +66,19 @@ const Homepage = () => {
 					</div>
 					<div className='mid-desc-two'>to serve by our professionals.</div>
 					<div className='mid-coffee-section'>
-						<div className='golden-text'>Cappuccino</div>
-						<div>•</div>
-						<div>Latte</div>
-						<div>•</div>
-						<div>Arabica</div>
+						<ul className='mid-coffee-list'>
+							<li>
+								<a href='#'>Cappuccino</a>
+							</li>
+							<li>•</li>
+							<li>
+								<a href='#'>Latte</a>
+							</li>
+							<li>•</li>
+							<li>
+								<a href='#'>Arabica</a>
+							</li>
+						</ul>
 					</div>
 					<a className='mid-link' href='/menu'>
 						More menu
@@ -80,7 +88,7 @@ const Homepage = () => {
 			<div className='bottom-section'>
 				<div className='logo-section'>
 					<div className='bottom-open-statement'>
-						They trust Tony's Coffee as their work place
+						They trust Tony's Coffee at their work place
 					</div>
 					<div className='logo-images'>
 						<img className='li-logo' src={li} alt='li-logo' />
@@ -178,7 +186,7 @@ const Homepage = () => {
 					</ul>
 				</div>
 				<div className='bottom-footer-section'>
-					<div>Copyright 2022 Tony's Coffee. All right reserved.</div>
+					<div>© Copyright 2022 Tony's Coffee. All right reserved.</div>
 				</div>
 			</div>
 		</div>
