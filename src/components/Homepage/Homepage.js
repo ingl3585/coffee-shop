@@ -1,5 +1,8 @@
 import './homepage.css';
 import topImg from '../../img/capp.jpg';
+import wayne from '../../img/wayne-ent.png';
+import cp from '../../img/cp-company.png';
+import li from '../../img/li-ind.jpeg';
 
 const Homepage = () => {
 	return (
@@ -36,13 +39,13 @@ const Homepage = () => {
 							<div className='numbers'>
 								50<span className='golden-text'>+</span>
 							</div>
-							<div>Private Room</div>
+							<div>Private Rooms</div>
 						</div>
 						<div>
 							<div className='numbers'>
 								25<span className='golden-text'>+</span>
 							</div>
-							<div>Event Space</div>
+							<div>Event Spaces</div>
 						</div>
 						<div>
 							<div className='numbers'>
@@ -63,42 +66,44 @@ const Homepage = () => {
 					</div>
 					<div className='mid-desc-two'>to serve by our professionals.</div>
 					<div className='mid-coffee-section'>
-						<div className='golden-text'>Cappucino</div>
+						<div className='golden-text'>Cappuccino</div>
 						<div>•</div>
-						<div>Late</div>
+						<div>Latte</div>
 						<div>•</div>
 						<div>Arabica</div>
 					</div>
-					<a className='mid-link' href='#'>
+					<a className='mid-link' href='/menu'>
 						More menu
 					</a>
 				</div>
 			</div>
-			{/* <div className='bottom-section'>
-				<div className='image-collage'>Image 1 Image 2 Image 3 Image 4</div>
-				<div>
-					<div className='bottom-statement'>
+			<div className='bottom-section'>
+				<div className='logo-section'>
+					<div className='bottom-open-statement'>
 						They trust Tony's Coffee as their work place
 					</div>
-					<div className='logo-section'>
-						<div>Logo 1</div>
-						<div>Logo 2</div>
-						<div>Logo 3</div>
-						<div>Logo 4</div>
+					<div className='logo-images'>
+						<img className='li-logo' src={li} alt='li-logo' />
+						<img className='wayne-logo' src={wayne} alt='wayne-logo' />
+						<img className='cp-logo' src={cp} alt='cp-logo' />
 					</div>
 				</div>
-				<div>
-					<div>
-						<div>Our Review</div>
-						<div>Let Our Customer Talk About Us</div>
-						<div>
+				<div className='review-section'>
+					<div className='left-review-card'>
+						<div className='title golden-text'>Our Review</div>
+						<div className='bottom-mid-statement-one'>
+							Let Our Customer <br /> Talk About Us
+						</div>
+						<div className='bottom-mid-statement-two'>
 							We are always proving the best to make our customer pleasant with
 							our services.
 						</div>
-						<div>Before</div>
-						<div>Next</div>
+						<div className='review-choices'>
+							<div>Before</div>
+							<div>Next</div>
+						</div>
 					</div>
-					<div>
+					<div className='right-review-card'>
 						<div>
 							"I really love the Cappucinas. The coffee was very smooth. I
 							really love the Cappucinas. The coffee was very smooth."
@@ -106,16 +111,20 @@ const Homepage = () => {
 						<div>Michael Jack</div>
 						<div>- Coffee Lover</div>
 					</div>
-					<div>
-						<div>Take Your Coffee Now</div>
+					<div className='bottom-closing-statement-one'>
+						<div>Take Your</div>
+						<div>Coffee Now</div>
+					</div>
+					<div className='bottom-closing-statement-two'>
 						<div>
-							Don't let your coffee cold. Let's go to Tony's Coffee and get your
-							coffee and boost your day now.
+							Don't let your coffee cold. Let's go to{' '}
+							<span className='golden-text'>Tony's Coffee</span> and
 						</div>
+						<div>get your coffee and boost your day now.</div>
 					</div>
 				</div>
 			</div>
-			<div className='footer'>
+			{/* <div className='footer'>
 				<div>
 					<div>Logo</div>
 					<div>

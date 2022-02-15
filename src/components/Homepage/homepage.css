@@ -37,7 +37,7 @@
 .top-btn:hover {
     transition: 0.20s;
     background-color: #BF723F;
-    color: #303438;
+    color: black;
 }
 
 .top-statement-one, .top-statement-two {
@@ -75,6 +75,10 @@
 .mid-link:hover {
     transition: 0.20s;
     color: #BF723F;
+}
+
+.bottom-open-statement {
+    color: #202131;
 }
 
 /* Tablet/Desktop Sizing */
@@ -134,7 +138,8 @@
         max-width: 30vw;
         min-height: 70vh;
         min-width: 25vw;
-        padding: 10px;
+        padding: 7.5px;
+        border: 3px solid #202131;
     }
 
     .mid-section {
@@ -198,5 +203,106 @@
     .mid-link {
         padding-top: 15px;
         font-size: 16px;
+    }
+
+    .bottom-open-statement {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .logo-section {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .logo-images img {
+        margin: 0 70px;
+    }
+
+    .li-logo {
+        height: 125px;
+        width: 200px;
+    }
+
+     .wayne-logo {
+        height: 125px;
+        width: 200px;
+    }
+
+    .cp-logo {
+        height: 125px;
+        width: 200px;
+    }
+
+    .review-section {
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .left-review-card {
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .bottom-mid-statement-one {
+        font-size: 45px;
+    }
+
+    .bottom-mid-statement-two {
+        font-size: 14px;
+    }
+
+    .review-choices {
+        display: flex;
+        gap: 10px;
+    }
+
+    .right-review-card {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        margin: 25px;
+        padding: 25px 75px;
+        color: #EFEFEF;
+        background-color: #303438;
+        border-radius: 2.5%;
+        gap: 10px;
+    }
+
+    .bottom-closing-statement-one {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 31.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+        font-size: 45px;
+    }
+
+    .bottom-closing-statement-two {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
     }
 }
