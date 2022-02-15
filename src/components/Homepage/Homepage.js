@@ -109,7 +109,7 @@ const Homepage = () => {
 							really love the Cappucinas. The coffee was very smooth."
 						</div>
 						<div>Michael Jack</div>
-						<div>- Coffee Lover</div>
+						<div className='bottom-review-text'>- Coffee Lover</div>
 					</div>
 					<div className='bottom-closing-statement-one'>
 						<div>Take Your</div>
@@ -124,39 +124,63 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
-			{/* <div className='footer'>
-				<div>
-					<div>Logo</div>
-					<div>
-						Tony's Coffee is a cafe that serve many variants of coffee and other
-						dishes in a very comfortable place.
-					</div>
-					<div>Location Img</div>
-					<div>Made Up Address</div>
-				</div>
-				<div>
-					<div>
-						<div>Facility</div>
-						<ul>
-							<li>Private Room</li>
-							<li>Meeting Room</li>
-							<li>Event Space</li>
-							<li>Creative Studio</li>
-							<li>Custom Room</li>
-						</ul>
-					</div>
-					<div>
-						<div>Products</div>
-						<ul>
-							<li>Coffee</li>
-							<li>Beverages</li>
-							<li>Dishes</li>
-						</ul>
+			<div className='footer'>
+				<div className='left-footer-section'>
+					<div className='footer-logo'>Logo</div>
+					<div className='footer-info'>
+						<div className='footer-info-desc'>
+							Tony's Coffee is a cafe that serve many variants of coffee and
+							other dishes in a very comfortable place.
+						</div>
+						<div className='footer-info-address'>
+							20903 Madeupstreet St.
+							<br />
+							Denver, CO 80231
+						</div>
 					</div>
 				</div>
-				<hr />
-				<div>Copyright 2022 Tony's Coffee. All right reserved.</div>
-			</div> */}
+				<div className='right-footer-section'>
+					<div className='footer-facility-title'>Facility</div>
+					<ul className='footer-facility-list'>
+						<li>
+							<a href='#'>Private Room</a>
+						</li>
+						<li>
+							<a href='#'>Meeting Room</a>
+						</li>
+						<li>
+							<a href='#'>Event Space</a>
+						</li>
+						<li>
+							<a href='#'>Creative Studio</a>
+						</li>
+						<li>
+							<li>
+								<a href='#'>Custom Room</a>
+							</li>
+						</li>
+					</ul>
+					<div className='footer-products-title'>Products</div>
+					<ul className='footer-products-list'>
+						<li>
+							<a href='#'>Coffee</a>
+						</li>
+						<li>
+							<li>
+								<a href='#'>Beverages</a>
+							</li>
+						</li>
+						<li>
+							<li>
+								<a href='#'>Dishes</a>
+							</li>
+						</li>
+					</ul>
+				</div>
+				<div className='bottom-footer-section'>
+					<div>Copyright 2022 Tony's Coffee. All right reserved.</div>
+				</div>
+			</div>
 		</div>
 	);
 };
