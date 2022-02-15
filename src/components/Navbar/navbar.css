@@ -9,7 +9,7 @@ section {
 
 .logo a {
     text-decoration: none;
-    color: black;
+    color: #202131;
 }
 
 nav.navigation {
@@ -17,7 +17,7 @@ nav.navigation {
 }
 
 nav.navigation a:hover, .logo a:hover {
-    color: #6EA4BF;
+    color: #BF723F;
     transition: 0.20s;
 }
 
@@ -36,7 +36,7 @@ nav.navigation.active {
 
 nav.navigation.active a {
     padding: 20px;
-    color: black;
+    color: #202131;
     font-weight: 500;
     text-decoration: none;
 }
@@ -65,7 +65,7 @@ img.show {
     nav.navigation a {
         font-size: 1.05rem;
         padding: 0 47.5px;
-        color: #303438;
+        color: #202131;
         text-decoration: none;
     }
     div.toggleBox {
