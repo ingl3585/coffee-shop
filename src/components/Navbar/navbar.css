@@ -1,5 +1,5 @@
 section {
-    background-color: #EFEFEF;
+    background-color:#303438;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@ section {
 
 .logo a {
     text-decoration: none;
-    color: #202131;
+    color: #EFEFEF;
 }
 
 nav.navigation {
@@ -65,7 +65,7 @@ img.show {
     nav.navigation a {
         font-size: 1.05rem;
         padding: 0 47.5px;
-        color: #202131;
+        color: #EFEFEF;
         text-decoration: none;
     }
     div.toggleBox {

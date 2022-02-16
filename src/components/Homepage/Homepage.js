@@ -29,7 +29,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
-			<div className='mid-section'>
+			<div className='mid-section' id='menu'>
 				<div className='mid-left'>
 					<div className='destination-title'>
 						Enjoy your coffee in a comfortable place.
@@ -85,7 +85,7 @@ const Homepage = () => {
 					</a>
 				</div>
 			</div>
-			<div className='bottom-section'>
+			<div className='bottom-section' id='reviews'>
 				<div className='logo-section'>
 					<div className='bottom-open-statement'>
 						They trust Tony's Coffee at their work place
