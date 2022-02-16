@@ -107,8 +107,12 @@ const Homepage = () => {
 							our services.
 						</div>
 						<div className='review-choices'>
-							<div>Before</div>
-							<div>Next</div>
+							<div>
+								<a href='#'>Before</a>
+							</div>
+							<div>
+								<a href='#'>Next</a>
+							</div>
 						</div>
 					</div>
 					<div className='right-review-card'>
@@ -126,9 +130,9 @@ const Homepage = () => {
 					<div className='bottom-closing-statement-two'>
 						<div>
 							Don't let your coffee cold. Let's go to{' '}
-							<span className='golden-text'>Tony's Coffee</span> and
+							<span className='golden-text'>Tony's Coffee</span> and get your
+							coffee and boost your day now.
 						</div>
-						<div>get your coffee and boost your day now.</div>
 					</div>
 				</div>
 			</div>

@@ -193,6 +193,16 @@
     gap: 10px;
 }
 
+.review-choices a {
+    color: #787B7D;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.review-choices a:hover {
+    color: #202131;
+}
+
 .right-review-card {
     color: #EFEFEF;
     background-color: #303438;
@@ -431,6 +441,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        text-align: justify;
         margin: 0 auto;
         gap: 10px;
     }
@@ -497,6 +508,8 @@
         grid-row: 1/2;
         display: grid;
         grid-template-rows: 1fr 2fr;
+        margin: 0 75px;
+        height: 100%;
     }
 
     .footer-logo {
@@ -515,7 +528,7 @@
         grid-row: 2/3;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-start;
         margin: 0 auto;
         gap: 35px;
@@ -527,6 +540,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 2fr;
+        height: 100%;
     }
 
     .footer-facility-title {

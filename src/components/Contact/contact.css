@@ -1,10 +1,10 @@
 .contact-container {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .about-me-container {
@@ -13,7 +13,7 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .about-me-title {
