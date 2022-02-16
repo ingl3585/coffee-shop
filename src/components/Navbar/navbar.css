@@ -64,6 +64,15 @@ img.show {
         font-size: 1.05rem;
         margin-left: 55px;
     }
+
+    .desktop-menu {
+        display: block;
+    }
+
+    .desktop-reviews {
+        display: block;
+    }
+
     nav.navigation {
         width: 50%;
         display: flex;

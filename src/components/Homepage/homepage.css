@@ -125,11 +125,11 @@
 }
 
 .bottom-section {
-    height: 100vh;
+    height: 90vh;
 }
 
 .logo-section {
-    height: 33.33vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -168,7 +168,7 @@
 }
 
 .review-section {
-    height: 66.67vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -225,15 +225,14 @@
 }
 
 .footer {
+    height: 10vh;
     background-color: #303438;
     color: #EFEFEF;
-}
-
-.left-footer-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .footer-info-desc {
@@ -247,10 +246,6 @@
 
 .right-footer-section {
     display: none;
-}
-
-.bottom-footer-section {
-    text-align: center;
 }
 
 /* Tablet/Desktop Sizing */
