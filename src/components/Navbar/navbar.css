@@ -41,6 +41,14 @@ nav.navigation.active a {
     text-decoration: none;
 }
 
+.desktop-menu {
+    display: none;
+}
+
+.desktop-reviews {
+    display: none;
+}
+
 img.close {
     display: none;
 }

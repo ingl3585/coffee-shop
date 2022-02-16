@@ -16,8 +16,12 @@ const Navbar = () => {
 			</div>
 			<nav className='navigation'>
 				<a href='/'>Home</a>
-				<a href='/#menu'>Menu</a>
-				<a href='/#reviews'>Reviews</a>
+				<a className='desktop-menu' href='/#menu'>
+					Menu
+				</a>
+				<a className='desktop-reviews' href='/#reviews'>
+					Reviews
+				</a>
 				<a href='contact'>Contact</a>
 			</nav>
 			<div className='toggleBox'>
