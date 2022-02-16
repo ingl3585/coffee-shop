@@ -134,16 +134,14 @@ const Homepage = () => {
 			</div>
 			<div className='footer'>
 				<div className='left-footer-section'>
-					<div className='footer-logo'>Logo</div>
+					<div className='footer-logo'>Tony's Coffee</div>
 					<div className='footer-info'>
 						<div className='footer-info-desc'>
 							Tony's Coffee is a cafe that serve many variants of coffee and
 							other dishes in a very comfortable place.
 						</div>
 						<div className='footer-info-address'>
-							20903 Madeupstreet St.
-							<br />
-							Denver, CO 80231
+							20903 Madeupstreet St. Denver, CO 80231
 						</div>
 					</div>
 				</div>
