@@ -117,8 +117,8 @@ const Homepage = () => {
 					</div>
 					<div className='right-review-card'>
 						<div>
-							"I really love the Cappucinas. The coffee was very smooth. I
-							really love the Cappucinas. The coffee was very smooth."
+							"I really love the Cappuccinos. The coffee was very smooth. I
+							really love the Cappuccinos. The coffee was very smooth."
 						</div>
 						<div>Michael Jack</div>
 						<div className='bottom-review-text'>- Coffee Lover</div>
