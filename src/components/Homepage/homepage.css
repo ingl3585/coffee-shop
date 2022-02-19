@@ -41,7 +41,7 @@
 .top-btn:hover {
     transition: 0.20s;
     background-color: #BF723F;
-    color: black;
+    color: #202131;
 }
 
 .top-statement-one, .top-statement-two {
@@ -530,6 +530,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        text-align: justify;
         margin: 0 auto;
         gap: 35px;
     }

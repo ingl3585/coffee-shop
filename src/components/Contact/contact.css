@@ -114,12 +114,11 @@
 
 .contact-me-btn {
     border: none;
-    height: 2.25rem;
-    width: 9rem;
-    border-radius: 5%/12.5%;
-    font-size: 1rem;
+    background-color: #202131;
     color: #EFEFEF;
-    background-image: linear-gradient(#303438, #202131);
+    padding: 10px 26px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
