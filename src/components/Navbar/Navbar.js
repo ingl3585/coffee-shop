@@ -13,17 +13,17 @@ const Navbar = () => {
 	return (
 		<section>
 			<div className='logo'>
-				<a href='/'>Tony's Coffee</a>
+				<a href='/coffee-shop'>Tony's Coffee</a>
 			</div>
 			<nav className='navigation'>
-				<a href='/'>Home</a>
+				<a href='/coffee-shop'>Home</a>
 				<HashLink className='desktop-menu' to='/#menu'>
 					Menu
 				</HashLink>
 				<HashLink className='desktop-reviews' to='/#reviews'>
 					Reviews
 				</HashLink>
-				<a href='/#/contact'>Contact</a>
+				<a href='coffee-shop/#/contact'>Contact</a>
 			</nav>
 			<div className='toggleBox'>
 				<a onClick={showMenu} href='#'>

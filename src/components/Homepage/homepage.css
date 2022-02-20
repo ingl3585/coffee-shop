@@ -88,6 +88,10 @@
     color: #EFEFEF;
 }
 
+.numbers {
+    margin: 5px;
+}
+
 .golden-text {
     color: #BF723F;
 }
