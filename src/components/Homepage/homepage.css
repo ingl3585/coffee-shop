@@ -24,6 +24,10 @@
     font-size: 42px;
 }
 
+.top-desc-one, .top-desc-two {
+    display: none;
+}
+
 .top-link-sec {
     display: flex;
     gap: 10px;
@@ -125,11 +129,11 @@
 }
 
 .bottom-section {
-    height: 90vh;
+    height: 85vh;
 }
 
 .logo-section {
-    height: 30vh;
+    height: 42.5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -144,7 +148,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -168,15 +172,14 @@
 }
 
 .review-section {
-    height: 60vh;
+    height: 42.5vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
 
 .left-review-card {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,6 +189,10 @@
     gap: 10px;
     padding: 25px;
     margin: 0 10px;
+}
+
+.bottom-mid-statement-two {
+    display: none;
 }
 
 .review-choices {
@@ -204,38 +211,30 @@
 }
 
 .right-review-card {
+    grid-column: 1/2;
+    grid-row: 1/2;
     color: #EFEFEF;
     background-color: #303438;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 25px;
-    margin: 0 10px;
-    border-radius: 5%;
+    font-size: 14px;
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 5%/10%;
 }
 
 .bottom-review-text {
     color: #787B7D;
 }
 
-.bottom-closing-statement-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.bottom-closing-statement-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.bottom-closing-statement-one, .bottom-closing-statement-two {
+    display: none;
 }
 
 .footer {
-    height: 10vh;
+    height: 15vh;
     background-color: #303438;
     color: #EFEFEF;
     display: flex;
@@ -243,6 +242,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 14px;
 }
 
 .footer-info-desc {
@@ -299,10 +299,12 @@
     }
 
     .top-desc-one {
+        display: block;
         padding-top: 10px;
     }
 
     .top-desc-two {
+        display: block;
         padding-bottom: 10px;
     }
 
@@ -437,6 +439,7 @@
 
     .left-review-card {
         grid-column: 1/2;
+        grid-row: 1/2;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -451,6 +454,7 @@
     }
 
     .bottom-mid-statement-two {
+        display: block;
         font-size: 14px;
     }
 
@@ -465,11 +469,11 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        margin: 0 auto;
         margin: 25px;
         padding: 25px 75px;
         border-radius: 5%/25%;
         gap: 20px;
+        font-size: 16px;
     }
 
     .bottom-closing-statement-one {
@@ -501,6 +505,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 2fr 0.5fr;
+        font-size: 16px;
     }
 
     .left-footer-section {

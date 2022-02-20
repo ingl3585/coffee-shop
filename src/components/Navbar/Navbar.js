@@ -26,10 +26,10 @@ const Navbar = () => {
 				<HashLink to='/contact'>Contact</HashLink>
 			</nav>
 			<div className='toggleBox'>
-				<HashLink onClick={showMenu} to='#'>
+				<a onClick={showMenu} href='#'>
 					<img className='menu' src={Menu} alt='menu' />
 					<img className='close' src={Close} alt='close' />
-				</HashLink>
+				</a>
 			</div>
 		</section>
 	);

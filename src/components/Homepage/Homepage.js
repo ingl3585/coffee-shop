@@ -8,9 +8,6 @@ const Homepage = () => {
 	return (
 		<div className='container'>
 			<div className='top-section'>
-				<div className='top-right'>
-					<img className='top-img' src={topImg} alt='coffee-img' />
-				</div>
 				<div className='top-left'>
 					<div className='title golden-text'>Tony's Coffee</div>
 					<div className='top-statement-one'>Enjoy your</div>
@@ -27,6 +24,9 @@ const Homepage = () => {
 							Reservation
 						</a>
 					</div>
+				</div>
+				<div className='top-right'>
+					<img className='top-img' src={topImg} alt='coffee-img' />
 				</div>
 			</div>
 			<div className='mid-section' id='menu'>
@@ -117,8 +117,9 @@ const Homepage = () => {
 					</div>
 					<div className='right-review-card'>
 						<div>
-							"I really love the Cappuccinos. The coffee was very smooth. I
-							really love the Cappuccinos. The coffee was very smooth."
+							"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+							interdum eu ex ac suscipit. Phasellus et posuere lectus, vitae
+							dignissim ex."
 						</div>
 						<div>Michael Jack</div>
 						<div className='bottom-review-text'>- Coffee Lover</div>
