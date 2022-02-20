@@ -56,7 +56,8 @@ img.close {
 img.show {
     display: block;
     position: absolute;
-    top: 30px;
+    top: 25.25px;
+    right: 21px;
 }
 
 @media screen and (min-width: 1024px) {
