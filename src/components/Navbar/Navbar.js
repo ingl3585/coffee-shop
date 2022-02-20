@@ -23,7 +23,7 @@ const Navbar = () => {
 				<HashLink className='desktop-reviews' to='/#reviews'>
 					Reviews
 				</HashLink>
-				<a href='coffee-shop/#/contact'>Contact</a>
+				<a href='#/contact'>Contact</a>
 			</nav>
 			<div className='toggleBox'>
 				<a onClick={showMenu} href='#'>
