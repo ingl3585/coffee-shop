@@ -1,6 +1,7 @@
 import './navbar.css';
 import Menu from '../../img/menu.png';
 import Close from '../../img/close.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
 	// Mobile nav open and close animation
@@ -12,17 +13,17 @@ const Navbar = () => {
 	return (
 		<section>
 			<div className='logo'>
-				<a href='#/'>Tony's Coffee</a>
+				<Link href='#/'>Tony's Coffee</Link>
 			</div>
 			<nav className='navigation'>
 				<a href='#/'>Home</a>
-				<a className='desktop-menu' href='#/#menu'>
+				<Link className='desktop-menu' to='/#menu'>
 					Menu
-				</a>
-				<a className='desktop-reviews' href='#/#reviews'>
+				</Link>
+				<Link className='desktop-reviews' to='/#reviews'>
 					Reviews
-				</a>
-				<a href='#/contact'>Contact</a>
+				</Link>
+				<Link href='#/contact'>Contact</Link>
 			</nav>
 			<div className='toggleBox'>
 				<a onClick={showMenu} href='#'>
