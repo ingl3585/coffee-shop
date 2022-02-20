@@ -16,11 +16,6 @@ nav.navigation {
     display: none;
 }
 
-nav.navigation a:hover, .logo a:hover {
-    color: #BF723F;
-    transition: 0.20s;
-}
-
 nav.navigation.active {
     display: flex;
     justify-content: center;
@@ -85,6 +80,10 @@ img.show {
         padding: 0 47.5px;
         color: #EFEFEF;
         text-decoration: none;
+    }
+    nav.navigation a:hover, .logo a:hover {
+        color: #BF723F;
+        transition: 0.20s;
     }
     div.toggleBox {
         display: none;
