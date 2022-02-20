@@ -23,7 +23,7 @@ const Homepage = () => {
 					</div>
 					<div className='top-link-sec'>
 						<button className='top-btn'>Get yours now</button>
-						<a className='top-link' href='#'>
+						<a className='top-link' href='#/'>
 							Reservation
 						</a>
 					</div>
@@ -68,19 +68,19 @@ const Homepage = () => {
 					<div className='mid-coffee-section'>
 						<ul className='mid-coffee-list'>
 							<li>
-								<a href='#'>Cappuccino</a>
+								<a href='#/'>Cappuccino</a>
 							</li>
 							<li>•</li>
 							<li>
-								<a href='#'>Latte</a>
+								<a href='#/'>Latte</a>
 							</li>
 							<li>•</li>
 							<li>
-								<a href='#'>Arabica</a>
+								<a href='#/'>Arabica</a>
 							</li>
 						</ul>
 					</div>
-					<a className='mid-link' href='/menu'>
+					<a className='mid-link' href='#/'>
 						More menu
 					</a>
 				</div>
@@ -108,10 +108,10 @@ const Homepage = () => {
 						</div>
 						<div className='review-choices'>
 							<div>
-								<a href='#'>Before</a>
+								<a href='#/'>Before</a>
 							</div>
 							<div>
-								<a href='#'>Next</a>
+								<a href='#/'>Next</a>
 							</div>
 						</div>
 					</div>
@@ -153,36 +153,36 @@ const Homepage = () => {
 					<div className='footer-facility-title'>Facility</div>
 					<ul className='footer-facility-list'>
 						<li>
-							<a href='#'>Private Room</a>
+							<a href='#/'>Private Room</a>
 						</li>
 						<li>
-							<a href='#'>Meeting Room</a>
+							<a href='#/'>Meeting Room</a>
 						</li>
 						<li>
-							<a href='#'>Event Space</a>
+							<a href='#/'>Event Space</a>
 						</li>
 						<li>
-							<a href='#'>Creative Studio</a>
+							<a href='#/'>Creative Studio</a>
 						</li>
 						<li>
 							<li>
-								<a href='#'>Custom Room</a>
+								<a href='#/'>Custom Room</a>
 							</li>
 						</li>
 					</ul>
 					<div className='footer-products-title'>Products</div>
 					<ul className='footer-products-list'>
 						<li>
-							<a href='#'>Coffee</a>
+							<a href='#/'>Coffee</a>
 						</li>
 						<li>
 							<li>
-								<a href='#'>Beverages</a>
+								<a href='#/'>Beverages</a>
 							</li>
 						</li>
 						<li>
 							<li>
-								<a href='#'>Dishes</a>
+								<a href='#/'>Dishes</a>
 							</li>
 						</li>
 					</ul>
