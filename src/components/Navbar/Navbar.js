@@ -12,10 +12,10 @@ const Navbar = () => {
 	return (
 		<section>
 			<div className='logo'>
-				<a href='/coffee-shop'>Tony's Coffee</a>
+				<a href='/'>Tony's Coffee</a>
 			</div>
 			<nav className='navigation'>
-				<a href='/coffee-shop'>Home</a>
+				<a href='/'>Home</a>
 				<a className='desktop-menu' href='/#menu'>
 					Menu
 				</a>

@@ -9,8 +9,8 @@ const App = () => {
 		<div className='App'>
 			<Navbar />
 			<Routes>
-				<Route path='/coffee-shop' element={<Homepage />} />
-				<Route path='/coffee-shop/contact' element={<Contact />} />
+				<Route path='/' element={<Homepage />} />
+				<Route path='/contact' element={<Contact />} />
 			</Routes>
 		</div>
 	);
