@@ -12,17 +12,17 @@ const Navbar = () => {
 	return (
 		<section>
 			<div className='logo'>
-				<a href='/'>Tony's Coffee</a>
+				<a href='#/'>Tony's Coffee</a>
 			</div>
 			<nav className='navigation'>
-				<a href='/'>Home</a>
-				<a className='desktop-menu' href='/#menu'>
+				<a href='#/'>Home</a>
+				<a className='desktop-menu' href='#/#menu'>
 					Menu
 				</a>
-				<a className='desktop-reviews' href='/#reviews'>
+				<a className='desktop-reviews' href='#/#reviews'>
 					Reviews
 				</a>
-				<a href='contact'>Contact</a>
+				<a href='#/contact'>Contact</a>
 			</nav>
 			<div className='toggleBox'>
 				<a onClick={showMenu} href='#'>
