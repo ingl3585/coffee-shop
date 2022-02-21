@@ -21,7 +21,7 @@ const Navbar = () => {
 				<Link to='/'>Tony's Coffee</Link>
 			</div>
 			<nav className='navigation'>
-				<a href='/coffee-shop'>Home</a>
+				<Link to='/'>Home</Link>
 				<HashLink className='desktop-menu' to='#menu'>
 					Menu
 				</HashLink>
