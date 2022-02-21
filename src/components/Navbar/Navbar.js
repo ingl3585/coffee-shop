@@ -31,7 +31,7 @@ const Navbar = () => {
 				<a
 					className='mobile-contact'
 					onClick={closeMenu}
-					href='/coffee-shop#/contact'>
+					href='/coffee-shop/#/contact'>
 					Contact
 				</a>
 				<a className='desktop-contact' href='/coffee-shop#/contact'>
