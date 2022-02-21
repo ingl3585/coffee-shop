@@ -44,6 +44,10 @@ nav.navigation.active a {
     display: none;
 }
 
+.desktop-contact {
+    display: none;
+}
+
 img.close {
     display: none;
 }
@@ -60,7 +64,12 @@ img.show {
         font-size: 1.05rem;
         margin-left: 55px;
     }
-
+    .mobile-contact {
+        display: none;
+    }
+    .desktop-contact {
+        display: block;
+    }
     .desktop-menu {
         display: block;
     }

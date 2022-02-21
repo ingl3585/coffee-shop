@@ -28,7 +28,13 @@ const Navbar = () => {
 				<HashLink className='desktop-reviews' to='#reviews'>
 					Reviews
 				</HashLink>
-				<a onClick={closeMenu} href='/coffee-shop#/contact'>
+				<a
+					className='mobile-contact'
+					onClick={closeMenu}
+					href='/coffee-shop#/contact'>
+					Contact
+				</a>
+				<a className='desktop-contact' href='/coffee-shop#/contact'>
 					Contact
 				</a>
 			</nav>
