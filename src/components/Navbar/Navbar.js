@@ -2,6 +2,7 @@ import './navbar.css';
 import Menu from '../../img/menu.png';
 import Close from '../../img/close.png';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	// Mobile nav open and close animation
@@ -10,10 +11,14 @@ const Navbar = () => {
 		document.querySelector('.menu').classList.toggle('hide');
 		document.querySelector('.close').classList.toggle('show');
 	};
+	const closeMenu = () => {
+		document.querySelector('.navigation').classList.toggle('active');
+		document.querySelector('.close').classList.toggle('show');
+	};
 	return (
 		<section>
 			<div className='logo'>
-				<a href='/coffee-shop'>Tony's Coffee</a>
+				<Link to='/'>Tony's Coffee</Link>
 			</div>
 			<nav className='navigation'>
 				<a href='/coffee-shop'>Home</a>
@@ -23,10 +28,12 @@ const Navbar = () => {
 				<HashLink className='desktop-reviews' to='#reviews'>
 					Reviews
 				</HashLink>
-				<a href='/coffee-shop/#/contact'>Contact</a>
+				<a onClick={closeMenu} href='/coffee-shop#/contact'>
+					Contact
+				</a>
 			</nav>
 			<div className='toggleBox'>
-				<a onClick={showMenu} href='#'>
+				<a onClick={showMenu} to='#'>
 					<img className='menu' src={Menu} alt='menu' />
 					<img className='close' src={Close} alt='close' />
 				</a>
